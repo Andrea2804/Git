@@ -13,7 +13,7 @@ public class Main {
 		int num1 = scan.nextInt();
 		int num2 = scan.nextInt();
 		String safe = scan.nextLine();
-		System.out.println("Che operazione(somma, sottrazione, divisione o moltiplicazione) vuoi eseguire? ");
+		System.out.println("Che operazione(somma, sottrazione, divisione, moltiplicazione o modulo) vuoi eseguire? ");
 		String operazione = scan.nextLine();
 		switch(operazione) {
 		case "somma":
@@ -27,6 +27,9 @@ public class Main {
 		break;
 		case "moltiplicazione":
 			Calcolatrice.moltiplicazione(num1, num2);
+		break;
+		case "modulo":
+			Calcolatrice.modulo(num1, num2);
 		break;
 		}
 

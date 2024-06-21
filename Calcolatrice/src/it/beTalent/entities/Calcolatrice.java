@@ -17,5 +17,9 @@ public class Calcolatrice {
 	public static void moltiplicazione(int num1, int num2) {
 		System.out.println("La moltiplicazione tra i due numeri è: " + (num1*num2));
 	}
+	
+	public static void modulo(int num1, int num2) {
+		System.out.println("il modulo tra i due numeri è: " + (num1%num2));
+	}
 
 }
